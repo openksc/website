@@ -1,7 +1,11 @@
-baseURL = "https://www.kubesphere.io/"
+baseURL = "https://openksc.github.io"
 
 enableRobotsTXT = true
 ignorefiles = [ ".*/_custom" ]
+
+[caches]
+  [caches.images]
+    dir = ':cacheDir/images'
 
 [markup]
   [markup.goldmark.extensions]
